@@ -121,7 +121,7 @@ footer {
     background-size: cover;
     background-position: center;
     grid-row: 3 / 4;
-    grid-column: 2 / 9;
+    grid-column: 2 / 8;
 
 }
 
@@ -132,7 +132,7 @@ footer {
     background-size: cover;
     background-position: center;
     grid-row: 3 / 4;
-    grid-column: 2 / 9;
+    grid-column: 2 / 8;
 
 }
 
@@ -276,27 +276,6 @@ tr:nth-of-type(even) {
         list-style-type: none;
     }
 
-    #studenthero {
-        height: auto;
-        background-image: url(/img/studenthero.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        grid-row: 2 / 3;
-        grid-column: 5 / 8;
-
-    }
-
-    #facultyhero {
-        height: auto;
-        background-image: url(/img/facultyhero.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        grid-row: 2 / 3;
-        grid-column: 5 / 8;
-
-    }
 
     #alumnihero {
         display: none;
