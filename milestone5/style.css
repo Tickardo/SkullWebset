@@ -240,6 +240,8 @@ main img {
         grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 150px)) minmax(0px, 1fr);
         grid-row: 3 / 4;
         grid-column: 2 / 9;
+        
+    
     }
 }
 
@@ -262,6 +264,20 @@ main img {
         flex-flow: column nowrap;
         list-style-type: none;
     }
+
+    #homehero {
+    height: 300px;
+    /*background-image: url(/img/homehero.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-row: 3 / 4;
+    grid-column: 2 / 8;
+
+
+
+
+}
 
     #studenthero {
         height: auto;
@@ -298,10 +314,8 @@ main img {
         grid-column: 5 / 8;
     }
 
-    main img {
-        float: none;
-        width: 100%;
-        padding-left: 0px;
+    img {
+        display: none;
     }
 }
 
@@ -324,9 +338,8 @@ main img {
         top: 0;
     }
 
-    #homehero {
+    #numbers {
         display: none;
-
     }
 
     #homehero img {
@@ -345,6 +358,10 @@ main img {
     }
 
     #alumnihero {
+        display: none;
+    }
+
+    img {
         display: none;
     }
 }
