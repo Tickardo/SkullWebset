@@ -79,13 +79,22 @@ h1 {
 
     background-origin: content-box;
     margin: 0;
+    color: #0069ed;
 
 }
 
 
 h2 {
+
     color: #424242;
     font-family: Georgia;
+
+}
+
+#details
+#form-box,
+h2 {
+    color: #0069ed;
 }
 
 dt {
@@ -114,13 +123,16 @@ footer {
     padding-top: 10px;
 }
 
+#numbers {
 
-
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
 #homehero {
-    height: 300px;
+
     /*background-image: url(/img/homehero.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,16 +153,36 @@ footer {
 
 }
 
+#homeheroimg img {
+      border-radius: 50%;
+}
+
 #studentheroimg {
-text-align: center;
-    grid-row: 4 / 5;
+    text-align: center;
+    grid-row: 3 / 5;
     grid-column: 2 / 8;
+
 
 
 }
 
+#serviceshero {
+    text-align: center;
+    grid-row: 4 / 5;
+    grid-column: 2 / 8;
+
+
+
+}
+
+#studentheroimg h1 {
+    text-align: left;
+    padding: 20px;
+    margin-left: 2%;
+}
+
 #studenthero {
-    
+
     height: 300px;
     /*background-image: url(/img/homehero.jpg); */
     background-repeat: no-repeat;
@@ -237,6 +269,8 @@ main {
     grid-column: 2 / 8;
 
     padding: 5% 5% 0%;
+
+
 }
 
 main img {
